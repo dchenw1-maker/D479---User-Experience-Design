@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Visit Taniti • Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a class="brand" href="index.html">
+          <div class="brand-mark" aria-hidden="true"></div>
+          <div><span>Visit Taniti</span><span class="sub">Beaches • Rainforest • Volcano</span></div>
+        </a>
+        <div class="navlinks">
+          <a href="index.html">Home</a>
+          <a href="explore.html">Explore</a>
+          <a href="lodging.html">Lodging</a>
+          <a href="dining.html">Dining</a>
+          <a href="transportation.html">Transportation</a>
+          <a href="plan.html">Plan Your Trip</a>
+          <a href="safety.html">Safety</a>
+          <a class="active" href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section-title">Contact the Taniti Tourism Office</h1>
+      <p class="lead">(Demo only, this form doesn't actually do anything)</p>
+
+      <div class="grid two" style="margin-top:14px;">
+        <div class="card">
+          <div class="pad">
+            <h2 style="margin:0 0 8px;">Common Questions</h2>
+            <ul class="list">
+              <li>Transportation options from the airport</li>
+              <li>Holiday closures and operating hours</li>
+              <li>Where to stay (Taniti City vs Merriton Landing)</li>
+              <li>Dining and grocery availability</li>
+              <li>Health services and safety tips</li>
+            </ul>
+            <div class="spacer"></div>
+            <a class="btn" href="plan.html#faq">Read FAQs</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="pad">
+            <h2 style="margin:0 0 8px;">Message Form</h2>
+
+            <form class="form" action="#" method="post">
+              <div class="field">
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+
+              <div class="field">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+
+              <div class="field">
+                <label for="topic">Topic</label>
+                <select id="topic" name="topic" required>
+                  <option value="" selected disabled>Select a topic</option>
+                  <option>Transportation</option>
+                  <option>Lodging</option>
+                  <option>Attractions & Activities</option>
+                  <option>Dining & Groceries</option>
+                  <option>Safety & Health</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="message">Your message</label>
+                <textarea id="message" name="message" placeholder="Tell us what you need help with..." required></textarea>
+              </div>
+
+              <div class="flex">
+                <button class="btn primary" type="submit">Submit (Demo)</button>
+                <span class="note">This is a static demo. The submit button above does not work. </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <hr class="sep" />
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="small muted">© Taniti Tourism Office • <a href="index.html">Home</a> • <a href="plan.html#faq">FAQs</a></div>
+    </div>
+  </footer>
+</body>
+</html>
